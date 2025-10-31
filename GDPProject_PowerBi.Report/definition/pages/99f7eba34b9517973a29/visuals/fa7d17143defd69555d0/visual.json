@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "fa7d17143defd69555d0",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 2000,
+    "height": 384,
+    "width": 1280,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "2000-2023"
+                    }
+                  },
+                  "Property": "Year"
+                }
+              },
+              "queryRef": "2000-2023.Year",
+              "nativeQueryRef": "Year",
+              "active": true
+            }
+          ]
+        },
+        "Y2": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "2000-2023"
+                        }
+                      },
+                      "Property": "GDP Per Capita ($)"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(2000-2023.GDP Per Capita ($))",
+              "nativeQueryRef": "GDP Per Capita ($)",
+              "displayName": "GDP Per Capita ($)"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "2000-2023"
+                      }
+                    },
+                    "Property": "GDP Per Capita ($)"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

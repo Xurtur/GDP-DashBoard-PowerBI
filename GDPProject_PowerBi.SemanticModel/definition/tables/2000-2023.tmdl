@@ -1,0 +1,46 @@
+table 2000-2023
+	lineageTag: 34e368e2-d136-4da4-952a-54f9d9468984
+
+	measure Country = IF(ISFILTERED('2000-2023'[Country / territory]), SELECTEDVALUE('2000-2023'[Country / territory]),"WORLDWIDE")
+		lineageTag: 5f7e1f12-ada6-478f-a4d9-477acd6d832a
+
+	measure YearFiltered = IF(ISFILTERED('2000-2023'[Year]), SELECTEDVALUE('2000-2023'[Year]), "2000-2023")
+		lineageTag: b456d0d4-74e8-406f-90b9-867b009cf353
+
+	column 'Country / territory'
+		dataType: string
+		lineageTag: a8169c58-118e-4102-95f5-a072d7b165ca
+		summarizeBy: none
+		sourceColumn: Country / territory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: string
+		lineageTag: 68e8236f-6113-4834-96b4-d58ac20a4478
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'GDP Per Capita ($)'
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 887448c9-d688-4efb-9956-9ea4be6b772c
+		summarizeBy: sum
+		sourceColumn: GDP Per Capita ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 2000-2023 = m
+		mode: import
+		source =
+				let
+				    Source = Table.Combine({#"2000-2009", #"2010-2019", #"2020-2023"})
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

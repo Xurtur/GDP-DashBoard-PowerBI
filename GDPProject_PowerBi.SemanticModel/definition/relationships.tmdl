@@ -1,0 +1,12 @@
+relationship 0c8b5ec8-b9f1-945f-b0fc-963e72106f14
+	crossFilteringBehavior: bothDirections
+	toCardinality: many
+	fromColumn: 2010-2019.'Country / territory'
+	toColumn: 2020-2023.'Country / territory'
+
+relationship c67c071c-65f3-191a-69cb-df5380149fb3
+	crossFilteringBehavior: bothDirections
+	toCardinality: many
+	fromColumn: 2000-2009.'Country / territory'
+	toColumn: 2020-2023.'Country / territory'
+

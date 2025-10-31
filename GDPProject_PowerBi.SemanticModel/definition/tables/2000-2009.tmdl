@@ -1,0 +1,47 @@
+table 2000-2009
+	lineageTag: 2e328a2e-cf1b-4cba-95fc-f8951843e45a
+
+	column 'Country / territory'
+		dataType: string
+		lineageTag: 7a9649fa-fca2-4e69-a411-1dde17fceec4
+		summarizeBy: none
+		sourceColumn: Country / territory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: string
+		lineageTag: c9911f70-f132-4f9e-ab4a-ef79ad0fb787
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'GDP Per Capita ($)'
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 4736c345-b635-49a4-9c91-369e28f93fb7
+		summarizeBy: sum
+		sourceColumn: GDP Per Capita ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 2000-2009 = m
+		mode: import
+		source =
+				let
+				    Source = Web.BrowserContents("https://en.wikipedia.org/wiki/List_of_countries_by_past_and_projected_GDP_(nominal)_per_capita#2020s"),
+				    #"Extracted Table From Html" = Html.Table(Source, {{"Column1", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(1)"}, {"Column2", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(2)"}, {"Column3", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(3)"}, {"Column4", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(4)"}, {"Column5", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(5)"}, {"Column6", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(6)"}, {"Column7", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(7)"}, {"Column8", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(8)"}, {"Column9", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(9)"}, {"Column10", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(10)"}, {"Column11", "TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR > :nth-child(11)"}}, [RowSelector="TABLE.sortable.wikitable.mw-datatable.static-row-numbers.col1left:nth-child(44) > * > TR"]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Extracted Table From Html",{{"Column1", type text}, {"Column2", Int64.Type}, {"Column3", Int64.Type}, {"Column4", Int64.Type}, {"Column5", Int64.Type}, {"Column6", Int64.Type}, {"Column7", Int64.Type}, {"Column8", Int64.Type}, {"Column9", Int64.Type}, {"Column10", Int64.Type}, {"Column11", Int64.Type}}),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true]),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"Country / territory", type text}, {"2000", Int64.Type}, {"2001", Int64.Type}, {"2002", Int64.Type}, {"2003", Int64.Type}, {"2004", Int64.Type}, {"2005", Int64.Type}, {"2006", Int64.Type}, {"2007", Int64.Type}, {"2008", Int64.Type}, {"2009", Int64.Type}}),
+				    #"Unpivoted Columns" = Table.UnpivotOtherColumns(#"Changed Type1", {"Country / territory"}, "Attribute", "Value"),
+				    #"Renamed Columns" = Table.RenameColumns(#"Unpivoted Columns",{{"Attribute", "Year"}, {"Value", "GDP Per Capita ($)"}}),
+				    #"Sorted Rows" = Table.Sort(#"Renamed Columns",{{"Country / territory", Order.Ascending}})
+				in
+				    #"Sorted Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

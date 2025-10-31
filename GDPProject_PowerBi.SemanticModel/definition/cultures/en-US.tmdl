@@ -1,0 +1,1584 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "entity_20002009": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2009"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2000-2009": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20002009.country___territory": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2009",
+			          "ConceptualProperty": "Country / territory"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "country / territory": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country territory": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "territory": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nation / territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "location / territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "nation territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "country / terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "country / region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "country terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "country region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "country / land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "country / ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20002009.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2009",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20002009.GDP_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2009",
+			          "ConceptualProperty": "GDP Per Capita ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GDP per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GDP per capita ($)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "entity_20102019": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2010-2019"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2010-2019": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20102019.country___territory": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2010-2019",
+			          "ConceptualProperty": "Country / territory"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "country / territory": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country territory": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "territory": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nation / territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "location / territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "nation territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "country / terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "country / region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "country terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "country region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "country / land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "country / ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20102019.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2010-2019",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20102019.GDP_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2010-2019",
+			          "ConceptualProperty": "GDP Per Capita ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GDP per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GDP per capita ($)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "entity_20202023": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2020-2023"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2020-2023": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20202023.country___territory": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2020-2023",
+			          "ConceptualProperty": "Country / territory"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country / territory": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country territory": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "territory": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nation / territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "location / territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "nation territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "country / terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "country / region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "country terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "country region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "country / land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "country / ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20202023.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2020-2023",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20202023.GDP_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2020-2023",
+			          "ConceptualProperty": "GDP Per Capita ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GDP per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GDP per capita ($)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "entity_20002023": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2023"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2000-2023": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20002023.country___territory": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2023",
+			          "ConceptualProperty": "Country / territory"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country / territory": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country territory": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "territory": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nation / territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "location / territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "nation territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "country / terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "country / region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "country terrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "country region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "country / land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "country / ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20002023.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2023",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20002023.GDP_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2023",
+			          "ConceptualProperty": "GDP Per Capita ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GDP per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GDP per capita ($)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "entity_20002023.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2023",
+			          "ConceptualProperty": "Country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "entity_20002023.year_filtered": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2000-2023",
+			          "ConceptualProperty": "YearFiltered"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year filtered": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearFiltered": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "yr filtered": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Year": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "entity_20002023_has_GDP_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002023": {
+			          "Target": {
+			            "Entity": "entity_20002023"
+			          }
+			        },
+			        "entity_20002023.GDP_per_capita": {
+			          "Target": {
+			            "Entity": "entity_20002023.GDP_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20002023"
+			            },
+			            "Object": {
+			              "Role": "entity_20002023.GDP_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002023_have_GDP_per_capita"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "entity_20002023"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "entity_20002023.GDP_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GDP_per_capita_indicates_how_expensive_20002023_are"
+			        }
+			      ]
+			    },
+			    "entity_20002023_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002023": {
+			          "Target": {
+			            "Entity": "entity_20002023"
+			          }
+			        },
+			        "entity_20002023.year": {
+			          "Target": {
+			            "Entity": "entity_20002023.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20002023"
+			            },
+			            "Object": {
+			              "Role": "entity_20002023.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002023_have_years"
+			        }
+			      ]
+			    },
+			    "entity_20002023_has_country___territory": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002023": {
+			          "Target": {
+			            "Entity": "entity_20002023"
+			          }
+			        },
+			        "entity_20002023.country___territory": {
+			          "Target": {
+			            "Entity": "entity_20002023.country___territory"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20002023"
+			            },
+			            "Object": {
+			              "Role": "entity_20002023.country___territory"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002023_have_country___territories"
+			        }
+			      ]
+			    },
+			    "entity_20202023_has_GDP_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "2020-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20202023": {
+			          "Target": {
+			            "Entity": "entity_20202023"
+			          }
+			        },
+			        "entity_20202023.GDP_per_capita": {
+			          "Target": {
+			            "Entity": "entity_20202023.GDP_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20202023"
+			            },
+			            "Object": {
+			              "Role": "entity_20202023.GDP_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20202023_have_GDP_per_capita"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "entity_20202023"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "entity_20202023.GDP_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GDP_per_capita_indicates_how_expensive_20202023_are"
+			        }
+			      ]
+			    },
+			    "entity_20202023_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "2020-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20202023": {
+			          "Target": {
+			            "Entity": "entity_20202023"
+			          }
+			        },
+			        "entity_20202023.year": {
+			          "Target": {
+			            "Entity": "entity_20202023.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20202023"
+			            },
+			            "Object": {
+			              "Role": "entity_20202023.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20202023_have_years"
+			        }
+			      ]
+			    },
+			    "entity_20202023_has_country___territory": {
+			      "Binding": {
+			        "ConceptualEntity": "2020-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20202023": {
+			          "Target": {
+			            "Entity": "entity_20202023"
+			          }
+			        },
+			        "entity_20202023.country___territory": {
+			          "Target": {
+			            "Entity": "entity_20202023.country___territory"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20202023"
+			            },
+			            "Object": {
+			              "Role": "entity_20202023.country___territory"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20202023_have_country___territories"
+			        }
+			      ]
+			    },
+			    "entity_20102019_has_GDP_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "2010-2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20102019": {
+			          "Target": {
+			            "Entity": "entity_20102019"
+			          }
+			        },
+			        "entity_20102019.GDP_per_capita": {
+			          "Target": {
+			            "Entity": "entity_20102019.GDP_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20102019"
+			            },
+			            "Object": {
+			              "Role": "entity_20102019.GDP_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20102019_have_GDP_per_capita"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "entity_20102019"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "entity_20102019.GDP_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GDP_per_capita_indicates_how_expensive_20102019_are"
+			        }
+			      ]
+			    },
+			    "entity_20102019_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "2010-2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20102019": {
+			          "Target": {
+			            "Entity": "entity_20102019"
+			          }
+			        },
+			        "entity_20102019.year": {
+			          "Target": {
+			            "Entity": "entity_20102019.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20102019"
+			            },
+			            "Object": {
+			              "Role": "entity_20102019.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20102019_have_years"
+			        }
+			      ]
+			    },
+			    "entity_20002009_has_GDP_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2009"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002009": {
+			          "Target": {
+			            "Entity": "entity_20002009"
+			          }
+			        },
+			        "entity_20002009.GDP_per_capita": {
+			          "Target": {
+			            "Entity": "entity_20002009.GDP_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20002009"
+			            },
+			            "Object": {
+			              "Role": "entity_20002009.GDP_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002009_have_GDP_per_capita"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "entity_20002009"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "entity_20002009.GDP_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GDP_per_capita_indicates_how_expensive_20002009_are"
+			        }
+			      ]
+			    },
+			    "entity_20002009_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2009"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002009": {
+			          "Target": {
+			            "Entity": "entity_20002009"
+			          }
+			        },
+			        "entity_20002009.year": {
+			          "Target": {
+			            "Entity": "entity_20002009.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20002009"
+			            },
+			            "Object": {
+			              "Role": "entity_20002009.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002009_have_years"
+			        }
+			      ]
+			    },
+			    "entity_20002023_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002023": {
+			          "Target": {
+			            "Entity": "entity_20002023"
+			          }
+			        },
+			        "entity_20002023.country": {
+			          "Target": {
+			            "Entity": "entity_20002023.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "entity_20002023.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "entity_20002023"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "entity_20002023.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002023_are_in_country"
+			        }
+			      ]
+			    },
+			    "entity_20002023_in_country___territory": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002023": {
+			          "Target": {
+			            "Entity": "entity_20002023"
+			          }
+			        },
+			        "entity_20002023.country___territory": {
+			          "Target": {
+			            "Entity": "entity_20002023.country___territory"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "entity_20002023.country___territory"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "entity_20002023"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "entity_20002023.country___territory"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002023_are_in_country___territories"
+			        }
+			      ]
+			    },
+			    "entity_20202023_in_country___territory": {
+			      "Binding": {
+			        "ConceptualEntity": "2020-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20202023": {
+			          "Target": {
+			            "Entity": "entity_20202023"
+			          }
+			        },
+			        "entity_20202023.country___territory": {
+			          "Target": {
+			            "Entity": "entity_20202023.country___territory"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "entity_20202023.country___territory"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "entity_20202023"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "entity_20202023.country___territory"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20202023_are_in_country___territories"
+			        }
+			      ]
+			    },
+			    "entity_20002023_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002023": {
+			          "Target": {
+			            "Entity": "entity_20002023"
+			          }
+			        },
+			        "entity_20002023.country": {
+			          "Target": {
+			            "Entity": "entity_20002023.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20002023"
+			            },
+			            "Object": {
+			              "Role": "entity_20002023.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002023_have_country"
+			        }
+			      ]
+			    },
+			    "entity_20002023_has_year_filtered": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2023"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002023": {
+			          "Target": {
+			            "Entity": "entity_20002023"
+			          }
+			        },
+			        "entity_20002023.year_filtered": {
+			          "Target": {
+			            "Entity": "entity_20002023.year_filtered"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20002023"
+			            },
+			            "Object": {
+			              "Role": "entity_20002023.year_filtered"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002023_have_year_filtered"
+			        }
+			      ]
+			    },
+			    "entity_20002009_has_entity_20202023": {
+			      "Binding": {
+			        "ConceptualEntity": "2000-2009"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20002009": {
+			          "Target": {
+			            "Entity": "entity_20002009"
+			          }
+			        },
+			        "entity_20202023": {
+			          "Target": {
+			            "Entity": "entity_20202023"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20002009"
+			            },
+			            "Object": {
+			              "Role": "entity_20202023"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20002009_have_20202023"
+			        }
+			      ]
+			    },
+			    "entity_20102019_has_entity_20202023": {
+			      "Binding": {
+			        "ConceptualEntity": "2010-2019"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_20102019": {
+			          "Target": {
+			            "Entity": "entity_20102019"
+			          }
+			        },
+			        "entity_20202023": {
+			          "Target": {
+			            "Entity": "entity_20202023"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_20102019"
+			            },
+			            "Object": {
+			              "Role": "entity_20202023"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing20102019_have_20202023"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
