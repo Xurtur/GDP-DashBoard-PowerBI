@@ -6,8 +6,7 @@
     "y": 568,
     "z": 1000,
     "height": 64,
-    "width": 200,
-    "tabOrder": 1000
+    "width": 200
   },
   "visual": {
     "visualType": "slicer",
@@ -55,6 +54,19 @@
               "expr": {
                 "Literal": {
                   "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "strictSingleSelect": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

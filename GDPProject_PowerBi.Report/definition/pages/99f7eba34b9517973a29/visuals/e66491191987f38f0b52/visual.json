@@ -4,10 +4,10 @@
   "position": {
     "x": 512,
     "y": 608,
-    "z": 5001,
+    "z": 6000,
     "height": 112,
     "width": 256,
-    "tabOrder": 5001
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "card",
@@ -87,6 +87,19 @@
     },
     "visualContainerObjects": {
       "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
         {
           "properties": {
             "show": {

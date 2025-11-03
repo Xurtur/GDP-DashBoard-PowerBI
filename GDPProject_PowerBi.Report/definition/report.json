@@ -11,7 +11,7 @@
       "type": "SharedResources"
     },
     "customTheme": {
-      "name": "AccessibleOrchid",
+      "name": "CopilotDefault",
       "reportVersionAtImport": {
         "visual": "2.1.0",
         "report": "3.0.0",
@@ -47,7 +47,7 @@
           "expanded": {
             "expr": {
               "Literal": {
-                "Value": "false"
+                "Value": "true"
               }
             }
           }
@@ -66,8 +66,8 @@
           "type": "BaseTheme"
         },
         {
-          "name": "AccessibleOrchid",
-          "path": "BuiltInThemes/AccessibleOrchid.json",
+          "name": "CopilotDefault",
+          "path": "BuiltInThemes/CopilotDefault.json",
           "type": "CustomTheme"
         }
       ]
