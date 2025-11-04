@@ -6,8 +6,7 @@
     "y": 498,
     "z": 7000,
     "height": 87.333333333333329,
-    "width": 311.33333333333331,
-    "tabOrder": 1000
+    "width": 311.33333333333331
   },
   "visual": {
     "visualType": "slicer",
@@ -67,6 +66,30 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#073B4C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

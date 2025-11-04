@@ -1,12 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "2c378f170ccbb3b2a76c",
+  "name": "017c238504a4091ea05b",
   "position": {
-    "x": 6,
-    "y": 9,
-    "z": 2000,
-    "height": 458,
-    "width": 647,
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 719.83640081799592,
+    "width": 1280,
     "tabOrder": 8000
   },
   "visual": {
@@ -18,14 +18,7 @@
             "tileShape": {
               "expr": {
                 "Literal": {
-                  "Value": "'rectangleRounded'"
-                }
-              }
-            },
-            "rectangleRoundedCurve": {
-              "expr": {
-                "Literal": {
-                  "Value": "5L"
+                  "Value": "'rectangle'"
                 }
               }
             }
@@ -53,7 +46,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#C2D2DD'"
+                      "Value": "'#073B4C'"
                     }
                   }
                 }
@@ -72,6 +65,21 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "general": [
+        {
+          "properties": {
+            "keepLayerOrder": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

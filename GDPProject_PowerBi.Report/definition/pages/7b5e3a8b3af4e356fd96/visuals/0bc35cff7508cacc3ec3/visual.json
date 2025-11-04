@@ -6,7 +6,8 @@
     "y": 17.307042253521125,
     "z": 6000,
     "height": 441.32957746478871,
-    "width": 614.4
+    "width": 614.4,
+    "tabOrder": 11000
   },
   "visual": {
     "visualType": "lineChart",
@@ -337,56 +338,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "8ab877d6b1173ab5e1e9",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "2000-2023"
-              }
-            },
-            "Property": "Year"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "82b0770f4a2b2971fddf",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "2000-2023"
-              }
-            },
-            "Property": "Country / territory"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "d44b15d774c285e4f458",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "2000-2023"
-                  }
-                },
-                "Property": "GDP Per Capita ($)"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

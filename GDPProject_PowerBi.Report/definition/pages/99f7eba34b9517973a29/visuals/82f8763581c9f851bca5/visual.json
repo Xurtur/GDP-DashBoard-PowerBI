@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "2c378f170ccbb3b2a76c",
+  "name": "82f8763581c9f851bca5",
   "position": {
-    "x": 6,
-    "y": 9,
-    "z": 2000,
-    "height": 458,
-    "width": 647,
-    "tabOrder": 8000
+    "x": 10.816901408450704,
+    "y": 620.169014084507,
+    "z": 4000,
+    "height": 87.977464788732391,
+    "width": 183.88732394366198,
+    "tabOrder": 13000
   },
   "visual": {
     "visualType": "shape",
@@ -18,14 +18,21 @@
             "tileShape": {
               "expr": {
                 "Literal": {
-                  "Value": "'rectangleRounded'"
+                  "Value": "'rectangle'"
                 }
               }
             },
             "rectangleRoundedCurve": {
               "expr": {
                 "Literal": {
-                  "Value": "5L"
+                  "Value": "513L"
+                }
+              }
+            },
+            "roundEdge": {
+              "expr": {
+                "Literal": {
+                  "Value": "25L"
                 }
               }
             }

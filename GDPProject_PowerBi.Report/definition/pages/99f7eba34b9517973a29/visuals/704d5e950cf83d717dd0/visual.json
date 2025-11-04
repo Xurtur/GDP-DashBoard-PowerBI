@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "2c378f170ccbb3b2a76c",
+  "name": "704d5e950cf83d717dd0",
   "position": {
-    "x": 6,
-    "y": 9,
-    "z": 2000,
-    "height": 458,
-    "width": 647,
-    "tabOrder": 8000
+    "x": 537.96056338028166,
+    "y": 612.95774647887322,
+    "z": 3000,
+    "height": 88.69859154929577,
+    "width": 253.11549295774648,
+    "tabOrder": 11000
   },
   "visual": {
     "visualType": "shape",
@@ -64,8 +64,10 @@
             "id": "default"
           }
         }
-      ],
-      "outline": [
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
         {
           "properties": {
             "show": {
