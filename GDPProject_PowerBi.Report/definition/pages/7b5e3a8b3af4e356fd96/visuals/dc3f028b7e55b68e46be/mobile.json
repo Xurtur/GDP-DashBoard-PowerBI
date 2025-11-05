@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainerMobileState/2.1.0/schema.json",
+  "position": {
+    "x": 28,
+    "y": 752,
+    "z": 11000,
+    "height": 72,
+    "width": 149,
+    "tabOrder": 10000
+  },
+  "objects": {
+    "data": [],
+    "general": [],
+    "header": [
+      {
+        "properties": {
+          "textSize": {
+            "expr": {
+              "Literal": {
+                "Value": "17D"
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Country'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "selection": []
+  }
+}

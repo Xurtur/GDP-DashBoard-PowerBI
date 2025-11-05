@@ -4,5 +4,27 @@
   "displayName": "Main",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 1280
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "0bc35cff7508cacc3ec3",
+      "target": "e75ef11acebd208e2713",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dc3f028b7e55b68e46be",
+      "target": "e75ef11acebd208e2713",
+      "type": "NoFilter"
+    },
+    {
+      "source": "9a49052b5475867dd5d3",
+      "target": "e75ef11acebd208e2713",
+      "type": "NoFilter"
+    },
+    {
+      "source": "ae9b4bd502491cb3898f",
+      "target": "e75ef11acebd208e2713",
+      "type": "NoFilter"
+    }
+  ]
 }

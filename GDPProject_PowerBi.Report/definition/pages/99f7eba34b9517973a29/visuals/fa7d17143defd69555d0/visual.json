@@ -2,11 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "fa7d17143defd69555d0",
   "position": {
-    "x": 122.3721881390593,
-    "y": 25.521472392638039,
+    "x": 123.14482758620689,
+    "y": 139.69655172413792,
     "z": 9000,
-    "height": 344.2126789366053,
-    "width": 1083.0265848670756
+    "height": 343.61379310344824,
+    "width": 1083.1448275862069,
+    "tabOrder": 16000
   },
   "visual": {
     "visualType": "lineChart",
@@ -259,42 +260,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "136a4315b9cfff6d5436",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "2000-2023"
-              }
-            },
-            "Property": "Year"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "9993d71149ad930af59e",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "2000-2023"
-                  }
-                },
-                "Property": "GDP Per Capita ($)"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }
